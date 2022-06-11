@@ -1,8 +1,6 @@
-// { Driver Code Starts
 #include<bits/stdc++.h> 
 using namespace std; 
 
- // } Driver Code Ends
 class Solution{   
 public:
 
@@ -30,7 +28,6 @@ public:
         return false;
     }
     int checkPerfectSquare(int N){
-        // code here 
         
         if(isPerfectSquare(N))
         {
@@ -40,7 +37,6 @@ public:
     }
 };
 
-// { Driver Code Starts.
 int main() 
 { 
     int t;

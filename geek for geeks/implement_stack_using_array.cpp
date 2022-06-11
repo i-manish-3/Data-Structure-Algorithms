@@ -1,4 +1,3 @@
-// { Driver Code Starts
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -41,18 +40,13 @@ int main()
         cout<<endl;
     }
 }
-// } Driver Code Ends
 
-
-
-//Function to push an integer into the stack.
 void MyStack :: push(int x)
 {
     top++;
     arr[top] = x;
 }
 
-//Function to remove an item from top of the stack.
 int MyStack :: pop()
 {
     if(top != - 1)

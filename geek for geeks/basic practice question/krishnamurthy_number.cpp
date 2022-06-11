@@ -1,8 +1,6 @@
-// { Driver Code Starts
 #include <bits/stdc++.h>
 using namespace std;
 
- // } Driver Code Ends
 class Solution {
   public:
   
@@ -15,7 +13,7 @@ class Solution {
         return n * fact(n - 1);
     }
     string isKrishnamurthy(int N) {
-        // code here
+        
         int n = N, sum = 0;
         while(N != 0)
         {
@@ -40,7 +38,6 @@ class Solution {
     }
 };
 
-// { Driver Code Starts.
 int main() {
     int t;
     cin >> t;
@@ -53,4 +50,4 @@ int main() {
         cout << ob.isKrishnamurthy(N) << endl;
     }
     return 0;
-}  // } Driver Code Ends
+} 
