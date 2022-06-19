@@ -14,7 +14,10 @@ int main(){
         for(int j = i; j < n; j++)
         {
             sum += arr[j];
-            res = max(res, sum);
+            if(res < sum)
+            {
+                res = sum;
+            }
         }
     }
     cout<<res;
