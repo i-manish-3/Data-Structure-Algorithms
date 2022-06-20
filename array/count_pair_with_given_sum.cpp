@@ -18,9 +18,10 @@ public:
         //         }
         //     }
         // }
+        // return count;
         
 
-        // Using sorting O(nlogn)
+        // Using sorting O(nlogn) works when elements are unique
         
         // sort(arr, arr+n);
         // int count = 0;
@@ -43,7 +44,7 @@ public:
         // }
         // return count;
         
-        // Using map  O(n)
+        // Using map  O(n)   
         
         unordered_map<int, int> ans;
         
