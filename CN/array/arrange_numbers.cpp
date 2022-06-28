@@ -31,6 +31,7 @@ Sample Input 2 :
 Sample Output 2 :
 1 3 5 7 9 8 6 4 2
 1 3 2
+
 */
 
 #include<bits/stdc++.h> 
