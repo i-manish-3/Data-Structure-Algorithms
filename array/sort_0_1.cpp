@@ -25,9 +25,7 @@ void sort01(int arr[], int n)
     }
 }
 
-
 int main(){
-    
     int arr[8] = {0,1,1,1,1,0,0,0};
     sort01(arr,8);
     return 0;
