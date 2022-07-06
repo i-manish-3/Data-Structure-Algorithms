@@ -5,6 +5,7 @@ vector<int> findArrayIntersection(vector<int> &arr1, int n, vector<int> &arr2, i
 	vector<int> ans;
 
 //     Gives TLE
+
 //     for(int i=0; i<n; i++){
 //         for(int j=0; j<m; j++){
 //             if(arr1[i]==arr2[j]){
@@ -44,6 +45,7 @@ int main()
     arr1[2] = 3;
     arr1[3] = 2;
     arr1[4] = 3;
+    ///////////////////////
     arr2[0] = 1;
     arr2[1] = 1;
     arr2[2] = 2;
