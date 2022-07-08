@@ -1,4 +1,3 @@
-
 /*
 Arrange Numbers in Array
 
