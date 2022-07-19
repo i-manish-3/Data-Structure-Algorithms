@@ -2,6 +2,7 @@
 
 class Solution {
 public:
+
     bool hasAllCodes(string s, int k) {
         
         if (k > s.size()) return false;
